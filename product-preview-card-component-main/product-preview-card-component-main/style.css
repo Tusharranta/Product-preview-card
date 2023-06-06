@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 333px;
+}
+.perfume {
+  height: 38px;
+  letter-spacing: 0.24rem;
+  color: #5e6168;
+}
+.paragraph {
+  height: 154px;
+  font-size: 14px;
+  font-family: "Fraunces", serif;
+  font-weight: 500;
+  color: #5e6168;
+}
+h2 {
+  color: #378767;
+}
+.amount {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 10rem;
+  align-items: center;
+  font-family: math, serif;
+}
+.cart {
+  text-align: center;
+  background-color: #378767;
+  border-radius: 10px;
+  height: 380px;
+  cursor: pointer;
+  color: aliceblue;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 230px;
+  height: 333px;
+  margin: 25px;
+  border-radius: 10%;
+}
